@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CashFlow Partner - Your Business Companion</title>
+  <link rel="preconnect" href="https://r2cdn.perplexity.ai" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="main-nav">
+      <button class="nav-btn active" data-view="dashboard" aria-label="Dashboard">🏠<span>Home</span></button>
+      <button class="nav-btn" data-view="insights" aria-label="Insights">💡<span>Insights</span></button>
+      <button class="nav-btn" data-view="cashbook" aria-label="Daily Cash Book">📒<span>Book</span></button>
+      <button class="nav-btn" data-view="summary" aria-label="Weekly/Monthly Summary">📊<span>Summary</span></button>
+      <button class="nav-btn" data-view="settings" aria-label="Settings">⚙️<span>Settings</span></button>
+    </nav>
+    <main id="main-content"></main>
+  </div>
+  <div id="modal" class="modal hidden"></div>
+  <script src="app.js"></script>
+</body>
+</html>
